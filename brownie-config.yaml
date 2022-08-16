@@ -1,0 +1,4 @@
+# to tell brownie to always pull from .env
+dotenv: .env
+wallets:
+  from_key: ${PRIVATE_KEY} # ${} will automatically transformit to the environment variable
